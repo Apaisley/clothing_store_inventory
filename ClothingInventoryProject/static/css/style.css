@@ -77,9 +77,100 @@ a{
     padding: 10px;
     margin-left: 8px;
     color: black;
+    
 }
 
 .ui.button.msrch{
     
     text-align: center;
+}
+
+#team {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: grey;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 5px 50px 5px;
+    animation-delay: 1s;
+}
+
+#script {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    border-radius: 18px;
+    box-shadow: 2px 5px 50px;
+    animation-delay: 2s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    padding: 2px;
+}
+
+img#about{
+    display: block;
+    margin: 140px auto;
+}
+
+#aboutdiv{
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    
+    max-width: 1100px;
+}
+
+#aboutext{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.shopping.cart.icon{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 200px;
+}
+
+#sale{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+    font-size: 100px;
+    /* background-color: white; */
+    
+
+}
+
+#sale h1{
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+#ex1{
+    margin-top: -300px;
+}
+
+i.close.icon{
+    margin-left: 750px;
+}
+#maptext{
+    margin-left: 300px;
+}
+.markdown-price{
+    text-decoration: line-through;
 }
